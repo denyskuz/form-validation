@@ -1,0 +1,25 @@
+[
+  {
+    "type": "text",
+    "default_value": "Enter your name",
+    "validation": "^[A-Za-z ]+$"
+  },
+  {
+    "type": "number",
+    "min_value": 18,
+    "max_value": 100,
+    "default_value": "Enter your age"
+  },
+
+  {
+    "type": "dropdown",
+    "options": ["red", "blue", "white"],
+    "default_value": "Choose color"
+  },
+
+  {
+    "type": "longtext",
+    "default_value": "Enter additional information here",
+    "validation": "^[A-Za-z ]+$"
+  }
+]
